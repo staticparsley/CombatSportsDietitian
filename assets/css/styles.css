@@ -22,6 +22,11 @@ a {
 	color: #fff;
 }
 
+.logo {
+	z-index: 1;
+	background-image: "url(assets/img/logo-3.png)";
+}
+
 a.research{
 	color: #000000;
 }
@@ -107,7 +112,7 @@ header {
 }
 
 header h2 {
-	font-family: "Quicksand", sans-serif;
+	font-family: "Courier", sans-serif;
 }
 
 header nav {
@@ -152,12 +157,13 @@ header nav li {
 }
 
 .hero h1 {
-	font: bold 60px "Open Sans", sans-serif;
+	font: bold 60px "Courier", sans-serif;
 	margin-bottom: 15px;
+
 }
 
 .hero h3 {
-	font: normal 28px "Open Sans", sans-serif;
+	font: normal 28px "Courier New", sans-serif;
 	margin-bottom: 40px;
 }
 

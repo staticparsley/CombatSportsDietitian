@@ -23,8 +23,7 @@ a {
 }
 
 .logo {
-	z-index: 1;
-	background-image: "url(assets/img/logo-3.png)";
+	width: 60%;
 }
 
 a.research{

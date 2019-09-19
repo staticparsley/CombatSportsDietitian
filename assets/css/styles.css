@@ -24,6 +24,8 @@ a {
 
 .logo {
 	width: 60%;
+	height: auto;
+	min-height: 150px;
 }
 
 a.research{

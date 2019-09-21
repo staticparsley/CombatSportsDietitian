@@ -14,6 +14,7 @@ html {
 ul,
 nav {
 	list-style: none;
+	font-size: 2vh;
 }
 
 a {
@@ -54,6 +55,7 @@ section {
 	padding: 100px 80px;
 	height: 100vh;
 	width: 100vw;
+	font-size: 1.85vh;
 }
 
 section:not(.hero):nth-child(even) {

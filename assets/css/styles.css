@@ -10,11 +10,20 @@ html {
 	font: normal 16px sans-serif;
 	color: #555;
 }
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+   
+}
 
 ul,
 nav {
 	list-style: none;
 	font-size: 2vh;
+	overflow: auto;
 }
 
 a {
@@ -155,6 +164,7 @@ header h2 {
 header nav {
 	display: flex;
 	margin-right: -15px;
+	overflow: hidden;
 }
 
 header nav li {
@@ -190,7 +200,7 @@ header nav li {
 	height: 100%;
 	background-size: cover;
 	z-index: -1;
-	background-color: #80a3db;
+	background-color:black;
 }
 
 .hero h1 {
@@ -347,10 +357,16 @@ header nav li {
 		flex-basis: 100%;
 		margin: 0 0 20px 0;
 	}
+	#contact {
+		margin-top: 650px;
+	}
+	.hero .background-image {
+		background-position: 90% ;	
+	}
 }
 @media (min-width: 1000px) {
 	#contact {
-		margin-top: 300px;
+		margin-top: 750px;
 	}
 	.contact form input {
 		flex-basis: 100%;
@@ -375,11 +391,25 @@ header nav li {
 	#contact {
 		margin-top: 250px;
 	}
+	.hero .background-image {	
+		background-position: 85% ;
+		width: 100%;
+	}
+	header nav li {
+		display: inline-block;
+		color: white;
+		font-size: 12px;
+		padding: 0px;
+		text-decoration: none;
+	}
 }
 
 @media (max-width: 540px) {
 	#contact {
 		margin-top: 300px;
+	}
+	.hero .background-image {	
+		background-position: 85% ;
 	}
 }
 
